@@ -17,6 +17,7 @@ func TestSet(t *testing.T) {
 	}
 	var s Store
 	var err error
+
 	db, mock, err := sqlmock.New()
 	defer db.Close()
 
